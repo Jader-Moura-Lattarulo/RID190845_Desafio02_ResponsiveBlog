@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/fonts/fonts.css" />
     <title>The Dev News</title>
   </head>
@@ -13,33 +13,31 @@
       <h1>The Dev News</h1>
     </header>
 
+    <div id="container">
     <main>
-      <div id="container">
-        <!-- Carousel -->
-        <section id="carousel-container">
-          <div id="carousel">
-            <img src="/images/city.svg" alt="" />
-            <div class="info">
-              <p class="card-label">opinião</p>
-              <h2 class="post-title">Como é ser um desenvolvedor</h2>
-              <p class="post-autor">By Fabio Tetsuo</p>
-            </div>
-          </div>
-        </section>
 
+      <!-- Carousel -->
+      <section id="carousel-container">
+        <div id="carousel-post">
+            <p class="carousel-label txt-white">opinião</p>
+            <h3 class="carousel-title txt-white">Como é ser um desenvolvedor</h3>
+            <p class="carousel-autor txt-white"><b>By</b> Fabio Tetsuo</p>
+        </div>
+      </section>
+      
         <!-- Latest posts -->
         <section id="posts-container">
           <div class="header latest-posts">
             <h2>Posts mais recentes</h2>
             <a href="#">Ver todos</a>
           </div>
-
+          
           <div class="post-container">
             <div class="card">
               <div class="card-top">
                 <img
-                  src="/images/images-latest-posts/post-desenvolimento-mobile.svg"
-                  alt=""
+                src="/images/images-latest-posts/post-desenvolimento-mobile.svg"
+                alt=""
                 />
               </div>
               <div class="card-bottom">
@@ -56,12 +54,12 @@
                 </div>
               </div>
             </div>
-
+            
             <div class="card">
-                <div class="card-top">
+              <div class="card-top">
                   <img
-                    src="/images/images-latest-posts/post-balancear-vida.svg"
-                    alt=""
+                  src="/images/images-latest-posts/post-balancear-vida.svg"
+                  alt=""
                   />
                 </div>
                 <div class="card-bottom">
@@ -79,43 +77,43 @@
                   </div>
                 </div>
               </div>
-
-            <div class="card">
-              <div class="card-top">
-                <img src="/images/images-latest-posts/post-config.svg" alt="" />
-              </div>
-              <div class="card-bottom">
-                <div class="card-description">
-                  <p class="card-label">desenvolvimento</p>
-                  <h3 class="card-title">Configurando VSCode</h3>
-                  <p class="post-autor"><b>By</b> Fabio Tetsuo</p>
-                  <p class="post-preview">
-                    Lorem ipsum dolor sit amet consectetur. Erat interdum tortor
-                    ac sagittis id a etiam. Tellus vitae arcu dignissim massa
-                    aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.
-                  </p>
-                  <p class="post-date">22 Agosto 2022</p>
+              
+              <div class="card">
+                <div class="card-top">
+                  <img src="/images/images-latest-posts/post-config.svg" alt="" />
+                </div>
+                <div class="card-bottom">
+                  <div class="card-description">
+                    <p class="card-label">desenvolvimento</p>
+                    <h3 class="card-title">Configurando VSCode</h3>
+                    <p class="post-autor"><b>By</b> Fabio Tetsuo</p>
+                    <p class="post-preview">
+                      Lorem ipsum dolor sit amet consectetur. Erat interdum tortor
+                      ac sagittis id a etiam. Tellus vitae arcu dignissim massa
+                      aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.
+                    </p>
+                    <p class="post-date">22 Agosto 2022</p>
+                  </div>
                 </div>
               </div>
-            </div>
-
-            <div class="card">
+              
+              <div class="card">
               <div class="card-top">
                 <img
                   src="/images/images-latest-posts/post-monitores-ou-ultrawide.svg"
                   alt=""
-                />
-              </div>
-              <div class="card-bottom">
-                <div class="card-description">
-                  <p class="card-label">produtividade</p>
-                  <h3 class="card-title">2 monitores ou 1 ultrawide?</h3>
-                  <p class="post-autor"><b>By</b> Fulano da Silva</p>
-                  <p class="post-preview">
-                    Lorem ipsum dolor sit amet consectetur. Arcu tellus
-                    adipiscing sagittis tristique. Eget molestie posuere enim
-                    pretium venenatis nunc ligula donec a. Velit senectus amet
-                    nulla.
+                  />
+                </div>
+                <div class="card-bottom">
+                  <div class="card-description">
+                    <p class="card-label">produtividade</p>
+                    <h3 class="card-title">2 monitores ou 1 ultrawide?</h3>
+                    <p class="post-autor"><b>By</b> Fulano da Silva</p>
+                    <p class="post-preview">
+                      Lorem ipsum dolor sit amet consectetur. Arcu tellus
+                      adipiscing sagittis tristique. Eget molestie posuere enim
+                      pretium venenatis nunc ligula donec a. Velit senectus amet
+                      nulla.
                   </p>
                   <p class="post-date">22 Agosto 2022</p>
                 </div>
@@ -123,14 +121,16 @@
             </div>
           </div>
         </section>
-
+      </main>
+      
+      <aside>
         <!-- Popular posts -->
         <section id="popular-posts">
           <div class="header">
             <h2>Posts populares</h2>
           </div>
         </section>
-
+        
         <!-- Categories -->
         <section id="categories">
           <div class="header">
@@ -138,8 +138,9 @@
           </div>
         </section>
       </div>
-    </main>
-
+    </aside>
+  </div>
+    
     <footer>
       <p>Copyright@The Dev News</p>
     </footer>
