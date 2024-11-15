@@ -19,8 +19,9 @@ h1 {
 #container {
     margin: 16px 156px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 744px 372px;
     grid-template-rows: auto auto;
+    gap: 25px;
 }
 
 #carousel-container {
@@ -30,7 +31,6 @@ h1 {
 
 #carousel img {
     display: block;
-    width: 744px;
     height: 396px;
     border-radius: 16px;
 }
@@ -39,11 +39,21 @@ h1 {
     color: #FFF;
     position: relative;
     bottom: 10px;
-
 }
 
 #posts-container {
     grid-column: 1;
+    grid-row: 2;
+    width: 744px;
+}
+
+#popular-posts {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#categories {
+    grid-column: 2;
     grid-row: 2;
 }
 
@@ -54,12 +64,19 @@ h1 {
     background-color: #02A28F;
     color: #FFF;
     border-radius: 8px;
+}
+
+.latest-posts {
     height: 56px;
+    width: 742px;
+    margin-bottom: 20px;
 }
 
 .post-container {
+    width: 360px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 footer {
@@ -69,4 +86,5 @@ footer {
     justify-content: center;
     align-items: center;
     height: 48px;
+    margin-top: 65px;
 }

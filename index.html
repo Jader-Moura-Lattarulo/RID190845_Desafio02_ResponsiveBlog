@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="styles/card.css" />
     <link rel="stylesheet" href="/fonts/fonts.css" />
     <title>The Dev News</title>
   </head>
@@ -13,97 +14,130 @@
     </header>
 
     <main>
-        <div id="container">
-            <!-- Carousel -->
-            <section id="carousel-container">
-                <div id="carousel">
-                    <img src="/images/city.svg" alt="">
-                    <div class="info">
-                        <p class="post-subtopic">opinião</p>
-                        <h2 class="post-title">Como é ser um desenvolvedor</h2>
-                        <p class="post-autor">By Fabio Tetsuo</p>
-                    </div>
+      <div id="container">
+        <!-- Carousel -->
+        <section id="carousel-container">
+          <div id="carousel">
+            <img src="/images/city.svg" alt="" />
+            <div class="info">
+              <p class="card-label">opinião</p>
+              <h2 class="post-title">Como é ser um desenvolvedor</h2>
+              <p class="post-autor">By Fabio Tetsuo</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Latest posts -->
+        <section id="posts-container">
+          <div class="header latest-posts">
+            <h2>Posts mais recentes</h2>
+            <a href="#">Ver todos</a>
+          </div>
+
+          <div class="post-container">
+            <div class="card">
+              <div class="card-top">
+                <img
+                  src="/images/images-latest-posts/post-desenvolimento-mobile.svg"
+                  alt=""
+                />
+              </div>
+              <div class="card-bottom">
+                <div class="card-description">
+                  <p class="card-label">desenvolvimento</p>
+                  <h3 class="card-title">Desenvolimento mobile</h3>
+                  <p class="post-autor"><b>By</b> Fabio Tetsuo</p>
+                  <p class="post-preview">
+                    Lorem ipsum dolor sit amet consectetur. In vitae urna
+                    commodo amet congue integer dapibus. Interdum semper mauris
+                    convallis fusce enim odio. Vitae montes ridiculus felis.
+                  </p>
+                  <p class="post-date">22 Agosto 2022</p>
                 </div>
-            </section>
-            
-            <!-- Latest posts -->
-            <section id="posts-container">
-                <div class="header">
-                    <h2>Posts mais recentes</h2>
-                    <a href="#">Ver todos</a>
+              </div>
+            </div>
+
+            <div class="card">
+                <div class="card-top">
+                  <img
+                    src="/images/images-latest-posts/post-balancear-vida.svg"
+                    alt=""
+                  />
                 </div>
-                
-                <div class="post-container">
-                    <div class="post-item">
-                        <img
-                        src="/images/images-latest-posts/post-desenvolimento-mobile.svg"
-                        alt=""
-                        />
-                        <p class="post-subtopic">desenvolvimento</p>
-                        <h3 class="post-title">Desenvolimento mobile</h3>
-                        <p class="post-autor">By Fabio Tetsuo</p>
-                        <p class="post-preview">
-                            Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet
-                            congue integer dapibus. Interdum semper mauris convallis fusce
-                            enim odio. Vitae montes ridiculus felis.
-                        </p>
-                        <p class="post-date">22 Agosto 2022</p>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/images/images-latest-posts/post-config.svg" alt="" />
-                        <p class="post-subtopic">desenvolvimento</p>
-                        <h3 class="post-title">Configurando VSCode</h3>
-                        <p class="post-autor">By Fabio Tetsuo</p>
-                        <p class="post-preview">
-                            Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac
-                            sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel
-                            tellus. Ipsum massa arcu nulla sed purus in ac.
-                        </p>
-                        <p class="post-date">22 Agosto 2022</p>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/images/images-latest-posts/post-balancear-vida.svg" alt="" />
-                        <p class="post-subtopic">desenvolvimento</p>
-                        <h3 class="post-title">Balancear vida profissional e pessoal</h3>
-                        <p class="post-autor">By Ridho Satriawan</p>
-                        <p class="post-preview">
-                            Lorem ipsum dolor sit amet consectetur. Et consectetur at
-                            consectetur sed nisl tempor.
-                        </p>
-                        <p class="post-date">22 Agosto 2022</p>
-                    </div>
-                    
-                    <div class="grid-item">
-                        <img src="/images/images-latest-posts/post-monitores-ou-ultrawide.svg" alt="" />
-                        <p class="post-subtopic">desenvolvimento</p>
-                        <h3 class="post-title">2 monitores ou 1 ultrawide?</h3>
-                        <p class="post-autor">By Fulano da Silva</p>
-                        <p class="post-preview">
-                            Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing
-                            sagittis tristique. Eget molestie posuere enim pretium venenatis
-                            nunc ligula donec a. Velit senectus amet nulla.
-                        </p>
-                        <p class="post-date">22 Agosto 2022</p>
-                    </div>
+                <div class="card-bottom">
+                  <div class="card-description">
+                    <p class="card-label">saude</p>
+                    <h3 class="card-title">
+                      Balancear vida profissional e pessoal
+                    </h3>
+                    <p class="post-autor"><b>By</b> Ridho Satriawan</p>
+                    <p class="post-preview">
+                      Lorem ipsum dolor sit amet consectetur. Et consectetur at
+                      consectetur sed nisl tempor.
+                    </p>
+                    <p class="post-date">22 Agosto 2022</p>
+                  </div>
                 </div>
-            </section>
-            
-            <!-- Popular posts -->
-            <section id="popular-posts">
-                <div class="header">
-                    <h2>Posts populares</h2>
+              </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img src="/images/images-latest-posts/post-config.svg" alt="" />
+              </div>
+              <div class="card-bottom">
+                <div class="card-description">
+                  <p class="card-label">desenvolvimento</p>
+                  <h3 class="card-title">Configurando VSCode</h3>
+                  <p class="post-autor"><b>By</b> Fabio Tetsuo</p>
+                  <p class="post-preview">
+                    Lorem ipsum dolor sit amet consectetur. Erat interdum tortor
+                    ac sagittis id a etiam. Tellus vitae arcu dignissim massa
+                    aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.
+                  </p>
+                  <p class="post-date">22 Agosto 2022</p>
                 </div>
-            </section>
-            
-            <!-- Categories -->
-            <section id="categories">
-                <div class="header">
-                    <h2>categorias</h2>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-top">
+                <img
+                  src="/images/images-latest-posts/post-monitores-ou-ultrawide.svg"
+                  alt=""
+                />
+              </div>
+              <div class="card-bottom">
+                <div class="card-description">
+                  <p class="card-label">produtividade</p>
+                  <h3 class="card-title">2 monitores ou 1 ultrawide?</h3>
+                  <p class="post-autor"><b>By</b> Fulano da Silva</p>
+                  <p class="post-preview">
+                    Lorem ipsum dolor sit amet consectetur. Arcu tellus
+                    adipiscing sagittis tristique. Eget molestie posuere enim
+                    pretium venenatis nunc ligula donec a. Velit senectus amet
+                    nulla.
+                  </p>
+                  <p class="post-date">22 Agosto 2022</p>
                 </div>
-            </section>
-        </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Popular posts -->
+        <section id="popular-posts">
+          <div class="header">
+            <h2>Posts populares</h2>
+          </div>
+        </section>
+
+        <!-- Categories -->
+        <section id="categories">
+          <div class="header">
+            <h2>categorias</h2>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
