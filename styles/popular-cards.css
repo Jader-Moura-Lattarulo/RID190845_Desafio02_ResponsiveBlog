@@ -35,3 +35,34 @@
     color: #616161;
     margin: .5rem 0;
 }
+
+@media only screen and (max-width: 768px){
+    .pop-card-container {
+        width: 41rem;
+        height: 9.6rem;
+        border-radius: 1rem;
+    }
+
+    .pop-card-img-container {
+        width: 18rem;
+        padding: 1.3rem 2rem;
+    }
+
+    .pop-card-img {
+        border-radius: 1rem;
+    }
+
+    .pop-card-container {
+        margin: 2rem 0;
+    }
+
+    .pop-card-txt-title {
+        font-size: 1.4rem;
+        margin: 1.3rem 0 0;
+    }
+
+    .pop-card-txt-date {
+        font-size: 1.2rem;
+        margin: .5rem 0;
+    }
+}
