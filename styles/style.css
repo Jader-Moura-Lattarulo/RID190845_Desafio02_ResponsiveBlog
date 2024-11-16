@@ -75,6 +75,10 @@ h1 {
     margin-top: 40px;
 }
 
+.header-aside:nth-last-child(1){
+    margin-top: 0;
+}
+
 .latest-posts {
     height: 56px;
     width: 742px;
