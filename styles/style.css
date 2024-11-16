@@ -107,3 +107,25 @@ footer {
     height: 48px;
     margin-top: 65px;
 }
+
+.category-list-container {
+    width: 361px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 22px;
+}
+
+.category-list > li::before {
+    content: "> ";
+}
