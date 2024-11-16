@@ -6,9 +6,12 @@
 }
 
 header {
+    height: 70px;
+}
+
+.header-colors {
     background-color: #02A28F;
     color: #FFF;
-    height: 70px;
 }
 
 h1 {
@@ -62,9 +65,14 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #02A28F;
-    color: #FFF;
     border-radius: 8px;
+}
+
+.header-aside {
+    width: 360px;
+    height: 48px;
+    padding: 17px 25.5px;
+    margin-top: 40px;
 }
 
 .latest-posts {
